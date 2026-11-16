@@ -1,0 +1,26 @@
+{
+  "name": "desafio_teste_batalha_naval",
+  "version": "1.0.0",
+  "description": "Casos de teste em JavaScript, com Jest, para a lógica do jogo Batalha Naval",
+  "private": true,
+  "type": "commonjs",
+  "main": "src/partida.js",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.js"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ggcoding11/desafio_teste_batalha_naval.git"
+  },
+  "author": "Gustavo de Almeida Gomes",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^30.5.2"
+  }
+}
